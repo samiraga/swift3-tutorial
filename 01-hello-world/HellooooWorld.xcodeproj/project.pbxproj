@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					659EAC0F1D75CA6F00DA1261 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8GHFUS3M8K;
+						DevelopmentTeam = 8TH3F42XF7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,10 +261,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8GHFUS3M8K;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TH3F42XF7;
 				INFOPLIST_FILE = HellooooWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = topix.hackademy.HellooooWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.swift.HellooooWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8GHFUS3M8K;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TH3F42XF7;
 				INFOPLIST_FILE = HellooooWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = topix.hackademy.HellooooWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.swift.HellooooWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -293,7 +295,7 @@
 				659EAC211D75CA7000DA1261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		659EAC221D75CA7000DA1261 /* Build configuration list for PBXNativeTarget "HellooooWorld" */ = {
 			isa = XCConfigurationList;
@@ -302,6 +304,7 @@
 				659EAC241D75CA7000DA1261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
